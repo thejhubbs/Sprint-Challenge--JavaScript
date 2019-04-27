@@ -6,6 +6,9 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
+const consume = function(one, two, callback){
+  callback(one, two);
+}
 
 
 /* Step 2: Create several functions to callback with consume();
@@ -26,7 +29,7 @@
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+// Because nestedFunction is in the scope of myFunction, where internal is defined.
 
 const external = "I'm outside the function";
 
