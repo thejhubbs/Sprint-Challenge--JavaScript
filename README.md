@@ -26,17 +26,25 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project managerxx
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.map returns an array, forEach doesn't
 
 2. What is the difference between a function and a method?
+a method is a function that belogs to a class
 
 3. What is closure?
+understanding and using scope in nested functions
 
 4. Describe the four rules of the 'this' keyword.
+global- refers to the window object
+implicit- refers the class left of the dot on a method
+new- refers to the object being created in a constructor function
+explicit-called explicity using call or apply
 
 5. Why do we need super() in an extended class?
+to allocate the other attributes to memory
 
 ## Project Set up
 
